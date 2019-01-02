@@ -1,0 +1,107 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body
+{
+  /*background: #308E64;*/
+  font-family:'Lato', sans-serif;
+  font-weight: 700;
+  margin: 0;
+}
+
+
+h1,h2
+{
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+h1
+{
+  font-size: 80px;
+
+}
+h2
+{
+  font-size: 40px;
+  margin-top: 0;
+}
+.col-narrow
+{
+  width: 35%;
+  float: left;
+  padding-right: 3%;
+  min-height: 175px;
+}
+.col-wide
+{
+  width: 62%;
+  float: left;
+  min-height: 175px;
+}
+
+a
+{
+   color: green;
+}
+
+a:hover
+{
+  text-decoration: none;
+}
+.content-wrap
+{
+  max-width:950px;
+  margin: 0 auto;
+  padding:50px;
+  /* overflow: auto; */
+  overflow: hidden;
+}
+
+/* header
+{
+ text-align: center;
+} */
+header h1, header h2
+{
+  color: #2E8B57;
+  margin: 0;
+
+}
+
+.profile-img
+{
+  width: 200px;
+  border-radius: 15%;
+  float: left;
+  margin-right: 30px;
+}
+header, footer
+{
+  background: #00FFFF;
+  color: #564138;
+}
+
+footer
+{
+  text-align: center;
+}
+
+.contact-info a
+{
+  background: white;
+  padding: 30px;
+  display: inline-block;
+}
+
+.work
+{
+  background: #D4CB92;
+  color: #5B8266;
+}
+
+.education
+{
+  background: #BCD3F2;
+}
